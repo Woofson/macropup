@@ -1,0 +1,10 @@
+{
+  "settings": { "layout": "no" },
+  "layers": [ { "name": "Tekst", "keys": [
+    { "label": "AEOA", "action": { "text": "æøå ÆØÅ" } },
+    { "label": "Sym", "action": { "text": "@£$€{[]}\\|§<>;:-_+?*'\"#¤%&/()=" } },
+    { "label": "Dead", "action": { "text": "^~`´¨" } },
+    { "label": "Mu", "action": { "text": "µ" } },
+    { "label": "Translit", "action": { "text": "é—“x”" } }
+  ] } ]
+}

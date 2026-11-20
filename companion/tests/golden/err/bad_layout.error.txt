@@ -1,0 +1,1 @@
+settings.layout must be one of ['us', 'no']

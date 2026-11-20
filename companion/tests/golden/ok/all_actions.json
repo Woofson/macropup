@@ -1,0 +1,38 @@
+{
+  "settings": {
+    "layout": "us",
+    "display": { "rotation": 3, "invert": false, "brightness": 90 },
+    "encoder": { "steps_per_detent": 2, "reverse": true },
+    "pot": { "reverse": true, "switch": "latch" }
+  },
+  "layers": [
+    {
+      "name": "Everything",
+      "keys": [
+        { "label": "Held", "action": "ctrl+shift+t" },
+        { "label": "Keys", "action": { "keys": "super+1" } },
+        { "label": "Tap", "action": { "tap": "alt+f4" } },
+        { "label": "TapMod", "action": { "tap": "shift" } },
+        { "label": "Text", "action": { "text": "Hi!\n\t~" } },
+        { "label": "Media", "action": { "media": "calculator" } },
+        { "label": "MediaNum", "action": { "media": 233 } },
+        { "label": "RunStr", "action": { "run": "echo hi" } },
+        { "label": "RunObj", "action": { "run": { "linux": "kitty", "windows": "wt" } } },
+        { "label": "RunAny", "action": { "run": { "any": "code", "windows": "code.cmd" } } },
+        { "label": "Mo", "action": { "layer": 1 } },
+        { "label": "Tg", "action": { "layer": 1, "mode": "toggle" } },
+        { "label": "To", "action": { "layer": 1, "mode": "to" } },
+        { "label": "Macro", "action": { "macro": [
+            "ctrl+l", { "tap": "esc" }, { "keys": "f5" }, { "text": "ab" },
+            { "delay": 70000 }, { "media": "mute" }, { "down": "ctrl+shift" },
+            { "up": "ctrl+shift" }, { "release_all": true }, { "run": "ls" },
+            { "click": "right" }, { "wheel": -200 }, { "layer": 1, "mode": "toggle" },
+            { "layer": 0 }
+        ] } },
+        "f13",
+        null
+      ]
+    },
+    { "name": "Second", "keys": [ { "label": "Back", "action": { "layer": 0, "mode": "to" } } ] }
+  ]
+}

@@ -1,0 +1,42 @@
+O rot 3
+O inv 0
+O bright 90
+O encdiv 2
+O encrev 1
+O potrev 1
+O potsw 1
+L 0 Everything
+K 0 0 1 e0e117 Held
+K 0 1 1 e31e Keys
+K 0 2 0 01e2033d02e2 Tap
+K 0 3 0 03e1 TapMod
+K 0 4 0 01e1030b02e1030c01e1031e02e10328032b01e1033502e1 Text
+K 0 5 0 049201 Media
+K 0 6 0 04e900 MediaNum
+K 0 7 0 0700 RunStr
+K 0 8 0 0701 RunObj
+K 0 9 0 0702 RunAny
+K 0 10 2 01 Mo
+K 0 11 3 01 Tg
+K 0 12 4 01 To
+K 0 13 0 01e0030f02e00329033e0304030505ffff05711104e20001e001e102e102e0060703080209810b010a00 Macro
+K 0 14 1 68 f13
+K 0 15 0 -
+L 1 Second
+K 1 0 4 00 Back
+K 1 1 0 -
+K 1 2 0 -
+K 1 3 0 -
+K 1 4 0 -
+K 1 5 0 -
+K 1 6 0 -
+K 1 7 0 -
+K 1 8 0 -
+K 1 9 0 -
+K 1 10 0 -
+K 1 11 0 -
+K 1 12 0 -
+K 1 13 0 -
+K 1 14 0 -
+K 1 15 0 -
+O hash e0b1821b

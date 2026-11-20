@@ -1,0 +1,16 @@
+{
+  "layers": [
+    { "name": "Særdeles langt lagnavn som kuttes", "keys": [
+      { "label": "Ærlig Øl på Åsen", "action": "a" },
+      { "label": "This label is definitely longer than twenty-six characters", "action": "b" },
+      { "label": "Tab\tand\nnewline", "action": "c" },
+      { "label": "   padded   ", "action": "d" },
+      "e",
+      { "action": "f" },
+      {},
+      []
+    ] },
+    { "keys": [] },
+    { "name": "", "keys": [ null ] }
+  ]
+}

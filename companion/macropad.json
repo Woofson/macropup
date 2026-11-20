@@ -1,0 +1,75 @@
+{
+  "settings": {
+    "layout": "no",
+    "display": { "rotation": 1, "invert": true, "brightness": 200 },
+    "encoder": { "steps_per_detent": 4, "reverse": false },
+    "pot": { "reverse": false, "switch": "push" },
+    "linux": { "move_streams": true }
+  },
+
+  "audio": {
+    "rename": {
+      "Realtek": "Speakers",
+      "HDMI": "Monitor HDMI",
+      "Headset": "Headset"
+    },
+    "hide": ["Virtual", "Steam Streaming"]
+  },
+
+  "layers": [
+    {
+      "name": "Main",
+      "keys": [
+        { "label": "Copy",  "action": "ctrl+c" },
+        { "label": "Paste", "action": "ctrl+v" },
+        { "label": "Undo",  "action": "ctrl+z" },
+        { "label": "Redo",  "action": "ctrl+shift+z" },
+
+        { "label": "Term",  "action": { "run": { "linux": "kitty", "windows": "wt" } } },
+        { "label": "Files", "action": { "run": { "linux": "xdg-open ~", "windows": "explorer" } } },
+        { "label": "Snip",  "action": { "run": { "linux": "hyprshot -m region", "windows": "explorer ms-screenclip:" } } },
+        { "label": "Hilsen", "action": { "text": "Hilsen Pup\n" } },
+
+        { "label": "F13", "action": "f13" },
+        { "label": "F14", "action": "f14" },
+        { "label": "F15", "action": "f15" },
+        { "label": "Search Web",
+          "action": { "macro": [
+            "ctrl+l",
+            { "delay": 80 },
+            { "text": "https://duckduckgo.com" },
+            "enter"
+          ] } },
+
+        { "label": "Prev",  "action": { "media": "prev" } },
+        { "label": "Play",  "action": { "media": "play_pause" } },
+        { "label": "Next",  "action": { "media": "next" } },
+        { "label": "Fn",    "action": { "layer": 1, "mode": "momentary" } }
+      ]
+    },
+    {
+      "name": "Workspaces",
+      "keys": [
+        { "label": "WS 1", "action": "super+1" },
+        { "label": "WS 2", "action": "super+2" },
+        { "label": "WS 3", "action": "super+3" },
+        { "label": "WS 4", "action": "super+4" },
+
+        { "label": "WS 5", "action": "super+5" },
+        { "label": "WS 6", "action": "super+6" },
+        { "label": "WS 7", "action": "super+7" },
+        { "label": "WS 8", "action": "super+8" },
+
+        { "label": "Close", "action": { "tap": "super+q" } },
+        { "label": "Float", "action": { "tap": "super+v" } },
+        { "label": "Full",  "action": { "tap": "super+f" } },
+        { "label": "Lock",  "action": { "tap": "super+l" } },
+
+        { "label": "Scr Up",   "action": { "macro": [ { "wheel": 3 } ] } },
+        { "label": "Scr Down", "action": { "macro": [ { "wheel": -3 } ] } },
+        { "label": "Calc",     "action": { "media": "calculator" } },
+        null
+      ]
+    }
+  ]
+}

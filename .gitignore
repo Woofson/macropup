@@ -1,0 +1,22 @@
+# Agent instruction files stay out of the repository
+CLAUDE.md
+.claude/
+AGENTS.md
+
+# Build output
+build/
+
+# Python
+companion/.venv/
+__pycache__/
+*.pyc
+
+# Rust (tray app, from M1)
+target/
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

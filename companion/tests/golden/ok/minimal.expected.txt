@@ -1,0 +1,25 @@
+O rot 1
+O inv 1
+O bright 200
+O encdiv 4
+O encrev 0
+O potrev 0
+O potsw 0
+L 0 Layer 1
+K 0 0 1 04 A
+K 0 1 0 -
+K 0 2 0 -
+K 0 3 0 -
+K 0 4 0 -
+K 0 5 0 -
+K 0 6 0 -
+K 0 7 0 -
+K 0 8 0 -
+K 0 9 0 -
+K 0 10 0 -
+K 0 11 0 -
+K 0 12 0 -
+K 0 13 0 -
+K 0 14 0 -
+K 0 15 0 -
+O hash 7e304fdd

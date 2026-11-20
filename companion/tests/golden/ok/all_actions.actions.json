@@ -1,0 +1,18 @@
+[
+  {
+    "linux": "echo hi",
+    "windows": "echo hi"
+  },
+  {
+    "linux": "kitty",
+    "windows": "wt"
+  },
+  {
+    "linux": "code",
+    "windows": "code.cmd"
+  },
+  {
+    "linux": "ls",
+    "windows": "ls"
+  }
+]

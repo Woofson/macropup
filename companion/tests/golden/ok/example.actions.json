@@ -1,0 +1,14 @@
+[
+  {
+    "linux": "kitty",
+    "windows": "wt"
+  },
+  {
+    "linux": "xdg-open ~",
+    "windows": "explorer"
+  },
+  {
+    "linux": "hyprshot -m region",
+    "windows": "explorer ms-screenclip:"
+  }
+]

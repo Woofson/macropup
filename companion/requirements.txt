@@ -1,0 +1,4 @@
+pyserial>=3.5
+# Windows only (the Windows tray app replaces these from milestone 1):
+pycaw; sys_platform == "win32"
+comtypes; sys_platform == "win32"
